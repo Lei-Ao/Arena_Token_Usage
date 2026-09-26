@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Arena 用量统计 · ao-lei.top</title>
+<meta name="robots" content="noarchive" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div class="wrap">
+  <a class="back-link" href="./index.html">‹ 返回首页</a>
+  <h1 class="site-title">Arena 用量统计</h1>
+  <div class="updated" id="updated">加载中…</div>
+
+  <section class="kpi-grid" id="kpiGrid">
+    <div class="kpi"><div class="label">累计 trace 费用</div><div class="value" id="kpiCost">--</div></div>
+    <div class="kpi"><div class="label">累计 trace Token</div><div class="value" id="kpiTokens">--</div></div>
+    <div class="kpi"><div class="label">累计调用次数</div><div class="value" id="kpiCalls">--</div></div>
+    <div class="kpi"><div class="label">今日 trace 费用</div><div class="value" id="kpiToday">--</div></div>
+    <div class="kpi"><div class="label">今日费用最高模型</div><div class="value" id="kpiTopModel">--</div></div>
+  </section>
+
+  <section class="panels">
+    <div class="panel">
+      <h2>近 30 日费用趋势</h2>
+      <canvas id="trendChart" height="220"></canvas>
+      <div class="empty" id="trendEmpty" hidden>暂无趋势数据</div>
+    </div>
+    <div class="panel">
+      <h2>模型 Token 占比</h2>
+      <canvas id="donutChart" width="200" height="200" style="display:block;margin:0 auto;"></canvas>
+      <div class="legend" id="donutLegend"></div>
+      <div class="empty" id="donutEmpty" hidden>暂无模型数据</div>
+    </div>
+  </section>
+
+  <footer class="note">
+    数据来自本人 Arena 账号的聚合用量统计（费用/Token/调用次数/模型名），仅展示汇总数字，<br />
+    不包含任何会话标题、链接、对话内容或身份标识信息。数据每 10–15 分钟自动更新一次。<br />
+    统计口径为插件 trace 估算，非官方账单。
+  </footer>
+</div>
+<script src="./stats.js"></script>
+</body>
+</html>
