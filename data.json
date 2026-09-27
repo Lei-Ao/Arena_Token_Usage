@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-27T12:01:01.741Z",
+  "generatedAt": "2026-09-27T12:16:01.754Z",
   "totals": {
-    "cost": 110.049298,
-    "tokens": 24247949,
-    "calls": 234,
+    "cost": 111.860398,
+    "tokens": 24589631,
+    "calls": 240,
     "sessions": 16,
     "models": 14
   },
   "today": {
     "date": "2026-09-27",
-    "cost": 2.727398,
-    "tokens": 547679,
-    "calls": 29,
+    "cost": 4.538498,
+    "tokens": 889361,
+    "calls": 35,
     "topModel": "claude-opus-5-high-vertex",
-    "topModelCost": 2.5782
+    "topModelCost": 4.3893
   },
   "byModel": [
     {
@@ -30,9 +30,9 @@
     },
     {
       "model": "claude-opus-5-high-vertex",
-      "tokens": 457780,
-      "cost": 2.5782,
-      "calls": 16
+      "tokens": 799462,
+      "cost": 4.3893,
+      "calls": 22
     },
     {
       "model": "glm-5.2",
@@ -98,9 +98,9 @@
     },
     {
       "date": "2026-09-27",
-      "cost": 2.727398,
-      "tokens": 547679,
-      "calls": 29
+      "cost": 4.538498,
+      "tokens": 889361,
+      "calls": 35
     }
   ]
 }
