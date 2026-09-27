@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-27T11:46:01.752Z",
+  "generatedAt": "2026-09-27T12:01:01.741Z",
   "totals": {
     "cost": 110.049298,
-    "tokens": 24247924,
+    "tokens": 24247949,
     "calls": 234,
     "sessions": 16,
     "models": 14
@@ -10,7 +10,7 @@
   "today": {
     "date": "2026-09-27",
     "cost": 2.727398,
-    "tokens": 547654,
+    "tokens": 547679,
     "calls": 29,
     "topModel": "claude-opus-5-high-vertex",
     "topModelCost": 2.5782
@@ -30,7 +30,7 @@
     },
     {
       "model": "claude-opus-5-high-vertex",
-      "tokens": 457755,
+      "tokens": 457780,
       "cost": 2.5782,
       "calls": 16
     },
@@ -99,7 +99,7 @@
     {
       "date": "2026-09-27",
       "cost": 2.727398,
-      "tokens": 547654,
+      "tokens": 547679,
       "calls": 29
     }
   ]
