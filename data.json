@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-27T05:31:01.578Z",
+  "generatedAt": "2026-09-27T05:46:01.474Z",
   "totals": {
-    "cost": 101.0919,
-    "tokens": 23089800,
-    "calls": 200,
+    "cost": 107.3219,
+    "tokens": 23700270,
+    "calls": 205,
     "sessions": 2,
     "models": 3
   },
   "today": {
     "date": "2026-09-26",
-    "cost": 101.0919,
-    "tokens": 23089800,
-    "calls": 200,
+    "cost": 107.3219,
+    "tokens": 23700270,
+    "calls": 205,
     "topModel": "claude-fable-5-v2",
-    "topModelCost": 66.8906
+    "topModelCost": 73.1206
   },
   "byModel": [
     {
@@ -24,9 +24,9 @@
     },
     {
       "model": "claude-fable-5-v2",
-      "tokens": 6428600,
-      "cost": 66.8906,
-      "calls": 89
+      "tokens": 7039070,
+      "cost": 73.1206,
+      "calls": 94
     },
     {
       "model": "（未提供模型）",
@@ -38,9 +38,9 @@
   "trend": [
     {
       "date": "2026-09-26",
-      "cost": 101.0919,
-      "tokens": 23089800,
-      "calls": 200
+      "cost": 107.3219,
+      "tokens": 23700270,
+      "calls": 205
     }
   ]
 }
