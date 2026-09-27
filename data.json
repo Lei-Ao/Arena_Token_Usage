@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T07:46:01.520Z",
+  "generatedAt": "2026-09-27T08:01:01.539Z",
   "totals": {
     "cost": 107.3219,
     "tokens": 23700270,
@@ -8,12 +8,12 @@
     "models": 3
   },
   "today": {
-    "date": "2026-09-26",
-    "cost": 107.3219,
-    "tokens": 23700270,
-    "calls": 205,
-    "topModel": "claude-fable-5-v2",
-    "topModelCost": 73.1206
+    "date": "2026-09-27",
+    "cost": 0,
+    "tokens": 0,
+    "calls": 0,
+    "topModel": null,
+    "topModelCost": 0
   },
   "byModel": [
     {
