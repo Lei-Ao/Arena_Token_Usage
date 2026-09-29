@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T03:31:01.436Z",
+  "generatedAt": "2026-09-29T03:46:01.453Z",
   "totals": {
-    "cost": 138.451498,
-    "tokens": 29652974,
-    "calls": 315,
-    "sessions": 21,
-    "models": 17
+    "cost": 138.558888,
+    "tokens": 29692284,
+    "calls": 320,
+    "sessions": 26,
+    "models": 19
   },
   "today": {
     "date": "2026-09-29",
-    "cost": 0,
-    "tokens": 0,
-    "calls": 0,
-    "topModel": null,
-    "topModelCost": 0
+    "cost": 0.10739,
+    "tokens": 39310,
+    "calls": 5,
+    "topModel": "claude-sonnet-5-vertex",
+    "topModelCost": 0.0216
   },
   "byModel": [
     {
@@ -47,10 +47,16 @@
       "calls": 3
     },
     {
-      "model": "gpt-5.6-luna-low",
-      "tokens": 11918,
-      "cost": 0.002399,
+      "model": "claude-sonnet-5-vertex",
+      "tokens": 21542,
+      "cost": 0.0432,
       "calls": 2
+    },
+    {
+      "model": "gpt-5.6-luna-low",
+      "tokens": 17870,
+      "cost": 0.003594,
+      "calls": 3
     },
     {
       "model": "gpt-5.6-sol-low",
@@ -59,10 +65,10 @@
       "calls": 2
     },
     {
-      "model": "claude-sonnet-5-vertex",
-      "tokens": 10779,
-      "cost": 0.0216,
-      "calls": 1
+      "model": "gpt-5.6-luna-xhigh",
+      "tokens": 11908,
+      "cost": 0.002391,
+      "calls": 2
     },
     {
       "model": "claude-opus-5-low-vertex",
@@ -71,21 +77,15 @@
       "calls": 1
     },
     {
+      "model": "claude-opus-4-8-thinking",
+      "tokens": 10691,
+      "cost": 0.0535,
+      "calls": 1
+    },
+    {
       "model": "zai-org/GLM-5.2",
       "tokens": 7300,
       "cost": 0.0103,
-      "calls": 1
-    },
-    {
-      "model": "glm-5.3",
-      "tokens": 7293,
-      "cost": 0.00167512,
-      "calls": 1
-    },
-    {
-      "model": "kimi-k3-v2",
-      "tokens": 6856,
-      "cost": 0.0208,
       "calls": 1
     }
   ],
@@ -107,6 +107,12 @@
       "cost": 26.5911,
       "tokens": 5063343,
       "calls": 75
+    },
+    {
+      "date": "2026-09-29",
+      "cost": 0.10739,
+      "tokens": 39310,
+      "calls": 5
     }
   ]
 }
