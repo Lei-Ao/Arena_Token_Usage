@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:01:01.574Z",
+  "generatedAt": "2026-09-29T02:31:01.486Z",
   "totals": {
     "cost": 138.451498,
     "tokens": 29652974,
@@ -8,12 +8,12 @@
     "models": 17
   },
   "today": {
-    "date": "2026-09-28",
-    "cost": 26.5911,
-    "tokens": 5063343,
-    "calls": 75,
-    "topModel": "claude-opus-5-max-vertex",
-    "topModelCost": 26.4777
+    "date": "2026-09-29",
+    "cost": 0,
+    "tokens": 0,
+    "calls": 0,
+    "topModel": null,
+    "topModelCost": 0
   },
   "byModel": [
     {
