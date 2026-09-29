@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T03:46:01.453Z",
+  "generatedAt": "2026-09-29T03:55:35.526Z",
   "totals": {
-    "cost": 138.558888,
-    "tokens": 29692284,
-    "calls": 320,
+    "cost": 141.394488,
+    "tokens": 30190070,
+    "calls": 337,
     "sessions": 26,
     "models": 19
   },
   "today": {
     "date": "2026-09-29",
-    "cost": 0.10739,
-    "tokens": 39310,
-    "calls": 5,
-    "topModel": "claude-sonnet-5-vertex",
-    "topModelCost": 0.0216
+    "cost": 2.94299,
+    "tokens": 537096,
+    "calls": 22,
+    "topModel": "gpt-5.6-sol-xhigh",
+    "topModelCost": 2.8655
   },
   "byModel": [
     {
@@ -39,6 +39,12 @@
       "tokens": 799462,
       "cost": 4.3893,
       "calls": 22
+    },
+    {
+      "model": "gpt-5.6-sol-xhigh",
+      "tokens": 503738,
+      "cost": 2.8655,
+      "calls": 16
     },
     {
       "model": "glm-5.2",
@@ -81,12 +87,6 @@
       "tokens": 10691,
       "cost": 0.0535,
       "calls": 1
-    },
-    {
-      "model": "zai-org/GLM-5.2",
-      "tokens": 7300,
-      "cost": 0.0103,
-      "calls": 1
     }
   ],
   "trend": [
@@ -110,9 +110,9 @@
     },
     {
       "date": "2026-09-29",
-      "cost": 0.10739,
-      "tokens": 39310,
-      "calls": 5
+      "cost": 2.94299,
+      "tokens": 537096,
+      "calls": 22
     }
   ]
 }
