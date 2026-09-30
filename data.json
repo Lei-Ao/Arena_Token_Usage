@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T09:31:01.647Z",
+  "generatedAt": "2026-09-30T00:42:28.970Z",
   "totals": {
     "cost": 152.398988,
     "tokens": 32255670,
@@ -8,12 +8,12 @@
     "models": 19
   },
   "today": {
-    "date": "2026-09-29",
-    "cost": 13.94749,
-    "tokens": 2602696,
-    "calls": 40,
-    "topModel": "gpt-5.6-sol-xhigh",
-    "topModelCost": 13.87
+    "date": "2026-09-30",
+    "cost": 0,
+    "tokens": 0,
+    "calls": 0,
+    "topModel": null,
+    "topModelCost": 0
   },
   "byModel": [
     {
