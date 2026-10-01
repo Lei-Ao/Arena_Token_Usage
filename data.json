@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T13:15:51.568Z",
+  "generatedAt": "2026-10-01T04:08:23.906Z",
   "totals": {
     "cost": 152.398988,
     "tokens": 32255670,
@@ -8,7 +8,7 @@
     "models": 19
   },
   "today": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "cost": 0,
     "tokens": 0,
     "calls": 0,
